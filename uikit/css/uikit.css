@@ -12418,7 +12418,7 @@ h2 span a:focus{
 }
 nav {
 	position: absolute;
-	margin: -30px 0 0 50%
+	margin: -40px 0 0 400px
 }
 @media (max-width: 639px) {
   h2 span a{
@@ -12428,15 +12428,16 @@ nav {
 }
 
 .social-media-icons {
-	position: absolute;
-	margin: -1% 0 0 87%
+  position: absolute;
+  margin: -20% 0 0 600px
 }
-@media (max-width: 639px) {
+@media (min-width: 960px) {
   .social-media-icons {
     position: absolute;
-    margin: -20% 0 0 87%
+    margin: -34px 0 0 1200px
   }
 }
+
 .icon {
 	margin: 0 5px 0 5px;
 }
