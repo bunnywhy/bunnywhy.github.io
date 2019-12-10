@@ -1,360 +1,77 @@
-<!-- <!DOCTYPE html> -->
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Hanyu Wang, Engineer, U of I ECE '18 grad</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Le styles -->
-    <link href="./assets_files/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets_files/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="./assets_files/yangqing.css" rel="stylesheet">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="assets/js/html5shiv.js"></script>
-    <![endif]-->
-    <link rel="icon" href="./assets_files/favicon.ico">
+	<link rel="stylesheet" href="uikit/css/uikit.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker&display=swap" rel="stylesheet">
+	<script src="uikit/js/uikit.min.js"></script>
+	<script src="uikit/js/uikit-icons.min.js"></script>
 </head>
-
-<div class="visible-phone" id="blackBar">
-    <a href="#top">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#projects">Projects</a>
-    <a href="#courses">Courses</a>
-</div>
 
 
 <body>
+	<h2 class="uk-h2">
+		<span>
+			<a href="index.html">Hanyu Wang</a>
+		</span>
+	</h2>
 
-<div class="container span3 hidden-phone">
-    <div id="floating_sidebar" class="span3">
-        <br>
-        <ul class="nav nav-list bs-docs-sidenav hidden-phone">
-            <li><a href="#top">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#courses">Courses</a></li>
-        </ul>
-        <hr class="hidden-phone">
-        <div class="text-center hidden-phone">
-            <img src="assets_files/bb.png" alt="photo" class="logo-image">
-            <br><br>
-        </div>
-    </div>
-</div>
+	<nav class="navigation">
+		<ul>
+			<li class="sub-menu-parent" tab-index="0">
+				<a href="photo.html">PHOTO</a>
+				<ul class="sub-menu">
+					<li><a href="#">城市</a></li>
+					<li><a href="#">学校</a></li>
+				</ul>
+			</li>
+			<li class="sub-menu-parent" tab-index="0">
+				<a href="calligraphy.html">CALLIGRAPHY</a>
+			</li>
+			<li class="sub-menu-parent" tab-index="0">
+				<a href="data.html">DATA</a>
+			</li>
+			<li class="sub-menu-parent" tab-index="0">
+				<a href="writing.html">WRITING</a>
+			</li>
+			<li class="sub-menu-parent" tab-index="0">
+				<a href="reading.html">READING</a>
+				<ul class="sub-menu">
+					<li><a href="#">2019</a></li>
+					<li><a href="#">2018</a></li>
+					<li><a href="#">2017</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
 
+	<div class="social-media-icons">
+			<a href="http://www.facebook.com/hanyuwhy" target="_blank">
+				<svg class="icon" width="20px" height="20px" viewBox="0 0 30 30" enable-background="new 0 0 20 20" x="0px" y="0px">
+					<path id="facebook" fill="black" d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"></path>
+				</svg>
+			</a>
+			<a href="https://twitter.com/hanyuwangwhy" target="_blank">
+				<svg class="icon" width="20px" height="20px" viewBox="0 0 25 25" enable-background="new 0 0 20 20" x="0px" y="0px">
+					<path id="facebook" fill="black" d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578 9.3 9.3 0 0 1-2.958 1.13 4.66 4.66 0 0 0-7.938 4.25 13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568 4.692 4.692 0 0 1-2.104.08 4.661 4.661 0 0 0 4.352 3.234 9.348 9.348 0 0 1-5.786 1.995 9.5 9.5 0 0 1-1.112-.065 13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41z"></path>
+				</svg>
+			</a>
+			<a href="https://www.instagram.com/haaana_w" target="_blank">
+				<svg class="icon" width="20px" height="20px" viewBox="0 0 30 30" enable-background="new 0 0 20 20" x="0px" y="0px">
+					<path id="facebook" fill="black" d="M22.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
+					c2.469,0,4.479-2.01,4.479-4.479v-9.486v-4.73C26.586,5.421,24.576,3.415,22.107,3.415 M23.393,6.086l0.512-0.004v0.511v3.416
+					l-3.916,0.014l-0.012-3.928L23.393,6.086z M11.693,12.622c0.742-1.028,1.945-1.7,3.307-1.7s2.564,0.672,3.307,1.7
+					c0.484,0.67,0.771,1.49,0.771,2.379c0,2.248-1.828,4.078-4.078,4.078c-2.248,0-4.078-1.83-4.078-4.078
+					C10.922,14.112,11.211,13.292,11.693,12.622 M24.328,22.107c0,1.225-0.994,2.219-2.221,2.219H7.893
+					c-1.225,0-2.219-0.994-2.219-2.219v-9.486h3.459C8.832,13.356,8.664,14.159,8.664,15c0,3.494,2.842,6.335,6.336,6.335
+					s6.336-2.842,6.336-6.335c0-0.842-0.17-1.645-0.467-2.379h3.459V22.107z"></path>
+				</svg>
+			</a>
+	</div>
 
-<div class="container">
-    <div class="row">
-        <div class="span9">
-            <br>
-            <h3>
-                Hanyu Wang
-                <font face="STKaiti"> (王翰宇) </font>
-            </h3>
-            <h5>
-                hanyuwang.w@gmail.com
-            / <a target="_blank" 
-                 href="https://github.com/bunnywhy">GitHub</a>
-            </h5>
-            <p>
-                I am currently a backend engineer located in Hangzhou, China. I obtained Bachelor's and Master's degrees from UIUC ECE in four fruitful years.
-                My tech interest lies in data analysis, computer vision, hardware products and software engineering.
-            </p>
-            <p>
-                During my undergrad and master studies, I took a variety of courses in computer science and electrical engineering.
-                These courses gave me abundant hands-on experiences in software and hardware. I also got to know some inspiring friends who share common interests with me.
-            </p>
-            <p>
-                <!-- My goal is to become a product manager with a deep understanding in users and products. -->
-            </p> 
-
-            <br>
-
-            <!--
-             *** Portfolio ***
-            -->
-            <h3>
-                <a name="portfolio"></a> Portfolio
-            </h3>
-                              
-            <div class="media">
-                <div class="media-body">
-                    <p>
-                        <b>
-                            Visio - <font face="STKaiti", size="3.5"> 架构图</font>_1
-                        </b>
-                        <a target="_blank"
-                            href="https://github.com/bunnywhy/bunnywhy.github.io/blob/master/portfolio/%E6%9E%B6%E6%9E%84%E5%9B%BE_1.png">[link]
-                        </a>
-
-                        <b>
-                            <font color="white">- </font><font face="STKaiti", size="3.5"> 架构图</font>_2
-                        </b>
-                        <a target="_blank"
-                            href="https://github.com/bunnywhy/bunnywhy.github.io/blob/master/portfolio/%E6%9E%B6%E6%9E%84%E5%9B%BE_2.png">[link]
-                        </a> <br> <br>
-
-                        <b> Axure - <font face="STKaiti", size="3.5"> 酒店预订</font> APP<font face="STKaiti", size="3.5">原型 </font> </b>
-                        <a target="_blank"
-                            href="https://github.com/bunnywhy/bunnywhy.github.io/blob/master/portfolio/%E9%85%92%E5%BA%97%E9%A2%84%E8%AE%A2APP%E5%8E%9F%E5%9E%8B.rp">[prototype]
-                        </a> <br> <br>
-
-                        <b> Photoshop - <font face="STKaiti", size="3.5"> 海报</font> </b>
-                        <a target="_blank"
-                            href="https://github.com/bunnywhy/bunnywhy.github.io/blob/master/portfolio/photoshop%E4%BD%9C%E5%93%81.jpg">[poster]
-                        </a> <br> <br>
-
-                        <b> <font face="STKaiti", size="3.5"> 摄影 </font> </b>
-                        <a target="_blank"
-                            href="https://github.com/bunnywhy/bunnywhy.github.io/tree/master/portfolio/photography">[link]
-                        </a>
-
-                    </p>
-                </div>
-            </div>
-            <br>
-
-            <!--
-             *** Projects ***
-            -->
-            <h3>
-                <a name="projects"></a> Projects
-            </h3>
-                              
-            <div class="media">
-                
-                <div class="media-body">
-                    <p class="media-heading">
-                        <strong>
-                            Homeworks, CS 598 Deep Learning
-                     </strong><br>
-                    </p>
-                    <p class="abstract-text">
-                        The course used Python and PyTorch. I learned main structures like CNN, RNN, LSTM, etc. and main applications like object detection and NLP. <br>
-
-                        <a name="address" class="pull-right">
-                            <img class="media-object" src="https://raw.githubusercontent.com/bunnywhy/bunnywhy.github.io/master/img/receptive%20field.png" width="150px" height="150px">
-                        </a>
-
-                        <div style="text-indent: -3.25em; margin-left: 3.25em;"> <b> HW 1 - </b> Implemented and trained a neural network from scratch in Python for the MNIST dataset (no PyTorch). 
-                        Test accuracy 97.20%. </div>
-                        <div style="text-indent: -3.25em; margin-left: 3.25em;"> <b> HW 2 - </b> Implemented and trained a CNN from scratch in Python for the MNIST dataset (no PyTorch). <br>
-                        Implemented the details of convolution without using SciPy's convolution function. The CNN has one hidden layer and 5 channels.
-                        Test accuracy 98.00%. </div>
-                        <div style="text-indent: -3.25em; margin-left: 3.25em;"> <b> HW 3 - </b> Trained a deep convolution network on GPU with PyTorch for the CIFAR10 dataset. <br>
-                        The CNN uses dropout and data aumentation, and it was trained with ADAM. 
-                        Test accuracy 80.09%. </div>
-                        <div style="text-indent: -3.25em; margin-left: 3.25em;"> <b> HW 4 - </b> Implemented building blocks of ResNets and put them together to build and 
-                        train a deep RNN for image classification on CIFAR100. Utilized transfer learning; used a 
-                        pretrained ResNet and trained it on CIFAR100. 
-                        Test accuracy without using pretrained model is 63.92%, otherwise 87.95%. </div>
-                        <div style="text-indent: -3.25em; margin-left: 3.25em;"> <b> HW 6 - </b> A tutorial on GAN <br>
-                        Trained a GAN for CIFAR10 classification; trained a generator-discriminator pair on CIFAR10 dataset utilizing techniques from ACGAN and Wasserstein GANs. </div>
-                        <div style="text-indent: -4.60em; margin-left: 4.60em;"> <b> HW 7&8 - </b> Tutorials on NLP <br>
-                        Trained models to detect the sentiment of IMDB movie reviews. Fed a review into a model and have it to predict whether the review is positive or negative.
-                        <a target="_blank"
-                            href="http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf">[reference]
-                        </a> </div>
-
-                        <div>
-                        <b> Summary </b> <br>
-                        - 深入学习了梯度下降、反向传播、CNN、优化算法、正则化方法、批标准化、ResNet、RNN、GAN、深度强化学习等和相关计算 <br>
-                        - 用Python实现了CNN并训练MNIST数据集，用PyTorch实现DCNN和ResNet并在GPU上训练CIFAR100数据集; 均达到高精确率 <br>
-                        - 详细通读了Goodfellow, Bengio, et al. Deep Learning、《机器学习》（周志华著）和Stanford CS231n的笔记 </div>
-                    </p>
-                </div>
-            </div>
-            
-
-            <div class="media">
-                <a name="address" class="pull-left">
-                    <!-- <img class="media-object" src="https://raw.githubusercontent.com/yihui-he/yihui-he.github.io/master/assets/Screen%20Shot%202018-10-03%20at%2001.53.35.png" width="96px" height="96px"> -->
-                </a>
-                <div class="media-body">
-                    <p class="media-heading">
-                        <strong>
-                            Homeworks, CS 357 Numerical Methods I
-                        </strong><br>
-                    </p>
-                    <p class="abstract-text">
-                        Use Python libraries like numpy, numpy.linalg, scipy, matplotlib.pyplot, etc. to perform data analysis. <br>
-                        Use Newton's method to reduce computing errors by minimizing the function's Jacobian. <br>
-                    </p>
-                </div>
-            </div>
-
-            <div class="media">
-                <div class="media-body">
-                    <p class="media-heading">
-                        <strong>
-                            Machine problems, CS 418 Computer Graphics
-                        </strong><br>
-                    </p>
-                    <p class="abstract-text">
-                        <a name="address" class="pull-left">
-                            <img class="media-object" src="https://raw.githubusercontent.com/bunnywhy/bunnywhy.github.io/master/img/418_1.png" width="115px" height="115px">
-                        </a>
-                        <div style="text-indent: 0.05em; margin-left: 9.25em;"> <b> MP 1 - Badge Animation </b> <br>
-                            Modeled Illinois Victory Badge with a 2-D mesh of triangles; <br>
-                            Animated the model with affine transformations and non-uniform motion. <br>
-                        </div>
-
-                        <hr style="height:15pt; visibility:hidden;" />
-
-                        <a name="address" class="pull-left">
-                            <img class="media-object" src="https://raw.githubusercontent.com/bunnywhy/bunnywhy.github.io/master/img/418_2.png" width="115px" height="115px">
-                        </a>
-                        <div style="text-indent: 0.05em; margin-left: 9.25em;"> <b> MP 2 - Flight Simulator </b> <br>
-                            Generated a terrain with diamond-square algorithm; <br>
-                            Added a cloud of fog over the terrain; <br>
-                            Created a light source with Blinn-Phong shading; <br>
-                            Implemented a quaternion-based viewing system. <br>
-                        </div> <br> <br>
-
-                        <a name="address" class="pull-left">
-                            <img class="media-object" src="https://raw.githubusercontent.com/bunnywhy/bunnywhy.github.io/master/img/418_4.png" width="115px" height="115px">
-                        </a>
-                        <div style="text-indent: 0.05em; margin-left: 9.25em;"> <b> MP 4 - 3-D Particle System </b> <br>
-                            Rendered a system of bouncing spheres in a 3-D box, where user can manually generate new spheres in it; <br>
-                            Simulated gravity and friction which affects the sphere's motion.
-                            <br> <br> 
-                            <hr style="height:1pt; visibility:hidden;" />
-                        </div>
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="media">
-                <a name="address" class="pull-left">
-                    <img class="media-object" src="https://raw.githubusercontent.com/bunnywhy/bunnywhy.github.io/master/img/445_3.jpg" width="115px" height="115px">
-                </a>
-                <div class="media-body">
-                    <div style="text-indent: 0.05em; margin-left: 0.35em;">
-                    <p class="media-heading">
-                        <strong>
-                            ECE 445 Senior Design
-                        </strong>
-                        <a target="_blank"
-                            href="https://courses.engr.illinois.edu/ece445/getfile.asp?id=9518">[link]</a>
-                    </p>
-                    <p class="abstract-text">
-                        Designed a piece of PCB of size 109.5×86.6 mm; the board integrated an ESP8266 Wi-Fi module chip, a dual motor driver chip, a 16-bit I/O expander chip and a 12-bit I2C ADC chip; <br>
-                        Selected suitable chips and hardware including gearmotor, temperature sensor and infrared emitter and receiver; <br>
-                        Initialized ESP8266 chip and web hosting service; enabled connection between chip and a website through Wi-Fi; <br>
-                        Wrote Arduino code to set motor driver’s power, read current temperature and infrared device’s status and display them on a 7-segment LED display.
-                    </p>
-                </div>
-            </div>
-
-            <hr style="height:5pt; visibility:hidden;" />            
-
-            <div class="media">
-                <a name="address" class="pull-left">
-                    <img class="media-object" src="https://raw.githubusercontent.com/bunnywhy/bunnywhy.github.io/master/img/391_4.jpg" width="115px" height="115px">
-                </a>
-                <div class="media-body">
-                    <div style="text-indent: 0.05em; margin-left: 0.35em;">
-                    <p class="media-heading">
-                        <strong>
-                            Machine Problem 3: "Illinix", ECE 391 Computer Systems Engineering
-                        </strong><br>
-                    </p>
-                    <p class="abstract-text">
-                        Implemented an operating system having similarities with Linux in x86 Assembly and C with three teammates; <br>
-                        Implemented interrupt, exception and system call handlers; implemented the procedure of context switch; <br>
-                        Implemented RTC, PIT, keyboard, mouse and speaker drivers with a teammate
-                        Thoroughly understood paging and scheduling.
-                    </p>
-                </div>
-            </div> 
-
-            <div class="media">
-                <a name="address" class="pull-left">
-                    <img class="media-object" src="https://raw.githubusercontent.com/bunnywhy/bunnywhy.github.io/master/img/385_4.jpg" width="115px" height="115px">
-                </a>
-                <div class="media-body">
-                    <div style="text-indent: 0.05em; margin-left: 0.35em;">
-                    <p class="media-heading">
-                        <strong>
-                            Final project, ECE 385 Digital Systems Laboratory
-                        </strong><br>
-                    </p>
-                    <p class="abstract-text">
-                        Wrote design proposal and the project’s final report; <br>
-                        Utilized Altera DE2-115 board, Quartus II and ModelSim to perform FPGA programming; <br>
-                        Designed a large-scale state machine to control the game’s logic and flow using language SystemVerilog; <br>
-                        Utilized USB and VGA ports to achieve keyboard control on the game and display .png pictures precisely on monitor.
-                    </p>
-                </div>
-            </div>
-
-            <br>
-            <!--
-             *** Courses ***
-            -->
-            <h3>
-                <a name="courses"></a> Courses
-            </h3>
-
-            <div class="media">
-                <div class="media-body">
-                    <p class="media-heading">
-                            <b> MATH 241, 286, 357, 415, 453 </b> <br>
-                            <ul>
-                                <li> Calculus III, Differential Equations, Numerical Methods I, Applied Linear Algebra, Elementary Theory of Numbers </li> 
-                                     高等代数， 微分方程， 数学分析， 线性代数， 基础数论 <br> <br>
-                            </ul>
-
-                            <b> STAT 400, ECE 313 </b> <br> 
-                            <ul>
-                                <li> Statistics and Probability I, Probability with Engineering Applications </li>
-                                     概率论，概率的工程应用 <br> <br>
-                            </ul>
-                            
-                            <b> ECE 110, 120, 210, 220, 330, 385, 391, 445, 470, 486, 490, 515, 548 </b> <br> 
-                            <ul>
-                                <li> Introduction to Electronics, Introduction to Computing, Analog Signal Processing, Computer Systems & Programming, 
-                                     Power Circuits & Electromechanics, <b> Digital Systems Laboratory, Computer Systems Engineering, Senior Design Project Lab,
-                                     Introduction to Robotics, Control Systems, Introduction to Optimization, Control System Theory & Design, Models of Cognitive Processes </b> </li>
-                                     电子学导论，计算导论，模拟信号处理，计算机系统和编程，电源电路和电动力学，数字系统实验，计算机系统工程，毕业设计项目，
-                                     机器人学导论，控制系统，最优化导论，控制系统理论和设计，认知过程模型 <br> <br>
-                            </ul>
-
-                            <b> CS 125, 173, 225, 374, 418, 448, 598D </b> <br> 
-                            <ul>
-                                <li> Introduction to Computer Science, <b> Discrete Structures, Data Structures, Introduction to Algorithms & Models of Computation, 
-                                     Interactive Computer Graphics, Artificial Intelligence, Deep Leanring </b> </li>
-                                     计算机科学导论，离散结构，数据结构，算法和计算模型导论，交互式计算机图形学，人工智能，深度学习 <br>
-                            </ul>
-                    </p>
-                    <p class="abstract-text">
-                        
-                    </p>
-                </div>
-            </div>
-
-
-            <!-- Footer
-            ================================================== -->
-            <hr>
-            <footer class="footer">
-                <div class='hidden-phone'>
-                </div>
-                <div class="row">
-                    <div class="span12">
-                        <p>
-                            modified from <a target="_blank" href="http://daggerfs.com/">© Yangqing Jia 2017</a>
-                        </p>
-                    </div>
-                </div>
-
-            </footer>
-        </div>
-    </div>
-</div>
+	<footer>
+		<p>© 2019 Hanyu Wang</p>
+	</footer>
 
 </body>
 </html>
