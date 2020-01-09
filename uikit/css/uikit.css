@@ -12416,9 +12416,17 @@ h2 span a{
 h2 span a:focus{
 	color: navy
 }
-nav {
-	position: absolute;
-	margin: -40px 0 0 400px
+@media screen and (max-device-width: 720px) {
+  nav {
+  	position: absolute;
+  	margin: -40px 0 0 300px
+  }
+}
+@media screen and (min-width: 1024px) {
+  nav {
+    position: absolute;
+    margin: -40px 0 0 400px
+  }
 }
 @media (max-width: 639px) {
   h2 span a{
@@ -12426,16 +12434,22 @@ nav {
     color: navy
   }
 }
-@media only screen and (max-width: 400px) {
+/*@media screen and (max-device-width: 480px) and (orientation: portrait) {
   .social-media-icons {
     position: absolute;
-    margin: -20% 0 0 500px
+    margin: -34px 0 0 500px;
+  }
+}*/
+@media screen and (max-device-width: 720px) {
+  .social-media-icons {
+    position: absolute;
+    margin: -35px 0 0 835px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
   .social-media-icons {
     position: absolute;
-    margin: -34px 0 0 1200px
+    margin: -35px 0 0 1200px
   }
 }
 
